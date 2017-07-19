@@ -4,7 +4,6 @@
 from django.shortcuts import render
  
 def hello(request):
-    context          = {}
-    context['hello'] = 'Hello World!'
+    context = {'hello':'Hello World!'} # 字典 context
     return render(request, 'hello.html', context)
 

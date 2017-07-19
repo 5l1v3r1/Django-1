@@ -9,7 +9,7 @@ def search_form(request):
  
 # 接收请求数据
 def search(request):  
-    request.encoding='utf-8'
+    request.encoding='UTF-8'
     if 'q' in request.GET:
         message = 'your searching: ' + request.GET['q']
     else:
