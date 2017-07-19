@@ -1,6 +1,6 @@
 # Django
 python2.7+Centos 7 <br>
-`新手教程`，详情看代码。<br>
+`新手教程`，详情请看代码。<br>
 运行后可用链接 <br>
 http://127.0.0.1:8000/search-form/ <br>
 ![](https://github.com/mistyrain98/Django/blob/master/img/201700001.png)<br>
