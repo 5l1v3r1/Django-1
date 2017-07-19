@@ -1,6 +1,6 @@
 # Django
 python2.7+Centos 7 <br>
-可用链接 <br>
+运行后可用链接 <br>
 http://127.0.0.1:8000/search-form/ <br>
 http://127.0.0.1:8000/search-post/ <br>
 http://127.0.0.1:8000/admin/ <br>
