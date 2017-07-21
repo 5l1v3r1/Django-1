@@ -16,7 +16,7 @@ class Contact(models.Model):
     name   = models.CharField(max_length=200)
     age    = models.IntegerField(default=0)
     email  = models.EmailField()
-    def __unicode__(self):
+    def __unicode__(self):  # 使用交互式命令行时看得更加方便
         return self.name
 
 # Tag 模型 

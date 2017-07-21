@@ -46,7 +46,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR+"/templates",], # 模板文件的路径
+        'DIRS': [BASE_DIR+"/templates",], # 模板文件的路径。DIRS 是加载Django模板时检查的一个文件系统目录列表；是一个搜索路径。
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
